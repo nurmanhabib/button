@@ -1,0 +1,23 @@
+{
+    "name": "nurmanhabib/button",
+    "description": "Generate button dengan tampilan bootstrap untuk Laravel",
+    "license": "MIT",
+    "keywords": ["navigation","navigator"],
+    "authors": [
+        {
+            "name": "Habib Nurrahman",
+            "email": "nurmanhabib@gmail.com",
+            "homepage": "http://habibnurrahman.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "laravel/laravel": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nurmanhabib\\Button\\": "src/"
+        }
+    }
+}
