@@ -1,6 +1,6 @@
 <?php namespace Nurmanhabib\Button;
 
-use Illuminate\Html\FormBuilder as Form;
+use Form;
 
 class Button {
 
