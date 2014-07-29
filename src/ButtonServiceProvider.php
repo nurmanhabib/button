@@ -15,7 +15,7 @@ class ButtonServiceProvider extends ServiceProvider {
         {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
             $loader->alias('Button', 'Nurmanhabib\Button\Facades\Button');
-        })
+        });
     }
 
 }
