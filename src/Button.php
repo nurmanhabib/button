@@ -252,7 +252,10 @@ class Button {
     // Generate button with <a> element
     public function button_link($text = '', $url = '', $options = array(), $attr = array())
     {
-        return $this->button($text, array('link' => true, 'url' => $url), $attr);
+        $local      = array('link' => true, 'url' => $url);
+        $options    = array_merge($options, $local);
+
+        return $this->button($text, $options, $attr);
     }
 
     // Generate button with <a> element with icon
