@@ -307,7 +307,7 @@ class Button {
     }
 
     // Show
-    public function show($text = '', $id = 0, $options = array(), $attr = array())
+    public function show($id = 0, $text = '', $options = array(), $attr = array())
     {
         $options        = empty($options) ? array() : $options;
         $options        = array_merge($this->options['show'], $options);
@@ -317,7 +317,7 @@ class Button {
     }
 
     // Edit
-    public function edit($text = '', $id = 0, $options = array(), $attr = array())
+    public function edit($id = 0, $text = '', $options = array(), $attr = array())
     {
         $options        = empty($options) ? array() : $options;
         $options        = array_merge($this->options['edit'], $options);
@@ -336,7 +336,7 @@ class Button {
     }
 
     // Destroy
-    public function destroy($text = '', $id = 0, $options = array(), $attr = array())
+    public function destroy($id = 0, $text = '', $options = array(), $attr = array())
     {
         $options    = empty($options) ? array() : $options;
         $attr       = empty($attr) ? array() : $attr;
